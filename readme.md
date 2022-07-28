@@ -37,4 +37,8 @@ Eventough my exams is in 4 days but still giving my efforts and not leaving prac
 - This project tooks my 6 hrs ...
 
 
-![8th_Project](preview.png)
+![10th_Project](preview.png)
+
+## Deployed link
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1d230d3-a25b-4b17-891e-97eb1b313980/deploy-status)](https://rohankaushik10thproject.netlify.app/)
