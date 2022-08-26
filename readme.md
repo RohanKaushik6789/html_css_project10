@@ -6,15 +6,6 @@ Eventough my exams is in 4 days but still giving my efforts and not leaving prac
    - Here I took challange thati will make this project only using flexbox because I want to explore the Flexbox bugs and want to learn that 
    - as you can see in below image there is lines and dot that I learnd how to make then 
    - you can see my HTML file how well planned and ordered it is as I am begginer I  loved that style that I used
-## Font used
-  - ubuntu google font 
-  - Montserrat
-
-  ## Icons name on [Fontawesome website](https://fontawesome.com/)
-
-  - Puzzle piece icon
-  - Bulb icon
-  - Call icon
 
   ## How to add Icons from Fontawesome to HTML code
 
