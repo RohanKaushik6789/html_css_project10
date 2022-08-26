@@ -1,213 +1,233 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-
-
-body{
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-    url('assets/retro-living-room-interior-design.jpg') ;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;    
-}
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@500&family=Roboto:wght@300&display=swap');
 
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
-
-ul{
-    list-style-type: none;
-}
-li{
-    display: inline;
-    color: white;
-    margin-left: 6vw;
-    font-family: ubuntu;
+body{
+	background-image: url("./Interior Design Landing Page/landing_bg.jpeg");
+	background-repeat: no-repeat;
+	background-size:cover;
 }
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 18vh;
+	position:relative;
 }
 nav{
-    flex-basis: 75%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 2px solid white;
+	margin:1rem 2rem;
+	display:flex;
+
+	flex-direction: row;
+	justify-content: space-between;
 }
-.logo span{
-    color: white;
-    font-family: ubuntu;
-    font-size: 2vw;
+hr{
+	width:50%;
+	margin-left:40rem;
+	color:#fff;
 }
-.logo{
-    margin-top: 7vh;
+.logo-img{
+	margin-top:20px;
+	font-size:1.6rem;
+	color:#fff;
+	text-transform: uppercase;
 }
 
-ul{
-    flex-basis: 70%;
-    padding-top: 10vh;
-
+.list{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right:120px;
+}
+.list-item{
+	color:#fff;
+	margin :1rem 1.8rem;
+	list-style-type: none;
+	font-weight:700;
+	font-family: 'Red Rose', cursive;
+    font-family: 'Roboto', sans-serif;
+	text-decoration: none;
 }
 
-.contact{
-    flex-basis: 30%;
-    display: flex;
-    margin-top: 2vw;
-    
+.list-active span{
+	padding-left:20px;
 }
 .fa-solid.fa-phone-volume{
-    font-size: 30px;
-    padding-top: 5vh;
-    padding-left: 6vw;
-}
-.contact i{
-    color:white
+	transform: rotate(-52deg);
 }
 
-.number h4,.number p{
-    color:white;
-    font-size: 19px;
-    font-family: ubuntu;
-    padding-top: 2vh;
-    padding-left: 2vw;
+.header{
+	margin-left: 100px;
 }
-
-.mid_div{
-    height:35vh;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+.header-text{
+	margin-top:80px;
+	color:#fff;
+	font-size:1.8rem;
+	
+	font-weight: 800;
 }
-
-.mid_div h1{
-    flex-basis: 60%;
-    color: white;
-    font-family: ubuntu;
-    font-size: 5vw;
-    padding-left: 7vw;
-    padding-top: 7vw;
-    
-
+.head-btn{
+	margin-top:50px;
+	color: #fff;
+     border:2px solid #fff;
+	font-weight: 700;
+	padding: 10px 20px;
+	font-size:1.4rem;
+	background-color: transparent;
+	text-transform: uppercase;
+	border-radius: 30px;
 }
-
-.mid_rht{
-    flex-basis: 40%;
-    
+.card1{
+	
+	position:absolute;
+	top:40%;
+	left:70%;
+	background-color:rgba(255,255,255,0.1);
+	color:#fff;
 
 }
-.mid_rec{
-    background-color: rgb(50,76,94,0.7);
-    height: 18vh;
-    width: 18vw;
-    margin-top: 8vh;
-    padding-left: 1.5vw;
-    padding-top: 1.8vh;
-    margin-left: 3vw;
-    
+.card1 h4{
+	color:#fff;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+.fa-solid.fa-puzzle-piece{
+	background-color: #fff;
+	padding:10px 30px;
+	color:#000;
+	border-radius: 30px;
+
+	margin:1.25rem 1.25rem;
 
 }
-
-.mid_logo,.lower_logo{
-    background-color: #fff;
-    height: 5vh;
-    width: 7vw;
-    margin-top: 10px;
-    border-radius: 20px;
+.fa-regular.fa-lightbulb{
+	margin:20px 20px;
+	background-color: #fff;
+	padding:10px 30px;
+	color:#000;
+	border-radius: 30px;
+	
 }
-.mid_logo i,.lower_logo i{
-    font-size: 2.2vw;
-    margin-left: 2.6vw;
-    margin-top: .45vh;
+.line1{
+	position:absolute;
+	height:70px;
+	width:1px;
+	background-color: rgb(163, 189, 219);
+	right:34px;
+	top:134px;
+	transform:rotate(180deg);
 }
-
-.mid_rec p,.lower_rec p{
-    color: white;
-    font-family: ubuntu;
-    padding-top: 2vh;
+.line1 .circle{
+	position:absolute;
+	height:20px;
+	width:20px;
+	border-radius: 50px;
+	background-color: #fff;
+	top:0px;
+	left:-10px;
 }
-.ver_line{
-    height: 5vh;
-    width: 0px;
-    border-right: 1.5px solid white;
-    margin-left: 9vw;
-}
-
-.ver_dot{
-    height: 2vh;
-    width: 1vw;
-    border: 8px solid white;
-    margin-left: 8.567vw;
-    border-radius: 2vw;
-}
-
-
-.lower_div{
-    display: flex;
-    flex-direction: row;
-    height: 40vh;
+.card2{
+	position:absolute;
+	width:15vw;
+	left:50%;
+	background-color:rgba(255,255,255,0.1);
 
 }
-
-.lower_button{
-    flex-basis: 40%;
-    padding: 7vh 0vw 0vw 10vw;
-
+.card2 h4{
+	font-weight: bold;
+	margin-left:20px;
+	margin-bottom:20px;
+	
+	color:#fff;
 }
-.lower_button button{
-    width:15vw;
-    height: 8vh;
-    font-size: 1.5vw;
-    background: none;
-    font-weight: bolder;
-    font-family: montserrat;
-    color: white;
-    border: 2px solid white;
-    border-radius: 2vw;
-
-
-
+.line{
+	position:absolute;
+	height:70px;
+	
+	background-color: #fff;
+	right:-34px;
+	width:1px;
+	background-color: rgb(163, 189, 219);
+	top:20px;
+	transform:rotate(-90deg);
 }
 
-.lower_rgt{
-    flex-basis: 50%;
-    display: flex;
+.line .circle{
+	position:absolute;
+	height:20px;
+	width:20px;
+	border-radius: 50px;
+	background-color: #fff;
+	bottom:0;
+	left:-8px;
+}
+@media only screen and (max-width:1100px){
+	body{
+	
+		background-size:auto;
+	}
 
 }
+@media only screen and (max-width:800px){
+	br{
+		display:none;
+	}
+	.card1{
+	  width:100vw;
+		position:absolute;
+		top:100%;
+		
+		left:10%;
+		
+	
+	}
+	.fa-solid.fa-puzzle-piece{
+      margin:1.5rem 2rem;
+	}
+	.card2{
+		
+		position:absolute;
+		width:100vw;
+		left:10%;
+		top:140%;
+		
+	
+	}
+	.header{
+		width:100vw;
+	}
+	.line1{
+		
+	
+		right:-34px;
+		top:24px;
+		transform:rotate(-90deg);
+	}
+	.line1 .circle{
+		position:absolute;
+		top:70px;
+		left:-8px;
+		height:20px;
+	width:20px;
+	}
 
-.hor_line{
-    height: 0px;
-    width: 5vh;
-    border-top: 1.5px solid rgb(255, 255, 255);
-    margin-top: 9vw;}
+	
 
-.hor_dot{
-    height: 2vh;
-    width: 1vw;
-    border: 8px solid white;
-    margin-top: 16.24vh;
-    border-radius: 2vw;
 }
+@media only screen and (max-width:400px){
+	.list{
+		display: none;
+	}
+	.header-text{
+		font-size:1.2rem;
+		width:100%;
 
-.lower_rec{
-    background-color: rgb(50,76,94,0.7);
-    height: 18vh;
-    width: 18vw;
-    margin-top: 9vh;
-    padding-left: 1.5vw;
-    padding-top: 1.8vh;
-    margin-left: 6vw;
-    
+	}
+	hr{
+		display: none;
+	}
+	.header{
+		margin:0 2rem;
+	}
+
 
 }
